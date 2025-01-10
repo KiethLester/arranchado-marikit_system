@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Specialist</title>
+    <link rel="stylesheet" href="style.css"> </head>
+    <body>
+
+        <header>
+            <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+            <nav>
+                <ul id="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#themes">Themes</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <!-- Main Content Sections -->
+        <section id="home">
+            <h1>"Make your dreams turn into reality."</h1>
+            <div class="slideshow-container">
+                <div class="slides">
+                    <div class="slide">
+                        <img src="https://www.brides.com/thmb/mM05rrms1vCKNavAr8UGFNZvHMQ=/3279x3279/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__brides__proteus__5bb64a4ab2e7ef506361bb51__11-57fb9d6a4fbb4a43a0cad00bcc7fb6c9.jpeg" alt="Slide 1">
+                    </div>
+                    <div class="slide">
+                        <img src="https://deowgxgt4vwfe.cloudfront.net/uploads/1560498440_original.jpg" alt="Slide 2">
+                    </div>
+                    <div class="slide">
+                        <img src="https://i.pinimg.com/originals/af/d5/33/afd533522db63cffd8cd5a5c9ce5c0a4.jpg" alt="Slide 3">
+                    </div>
+                    <div class="slide">
+                        <img src="https://mediagroup.viyline.net/wp-content/uploads/2022/04/YIV-DEBUT-article_04-30-2022.jpg" alt="Slide 3">
+                    </div>
+                    <div class="slide">
+                        <img src="https://i.pinimg.com/originals/8b/74/7e/8b747e579b4aa68b210ac60b92183b04.jpg" alt="Slide 3">
+                    </div>
+                    <div class="slide">
+                        <img src="https://th.bing.com/th/id/OIP.9BkHJSESMfcaAZT0GG0hqQHaIF?w=900&h=983&rs=1&pid=ImgDetMain" alt="Slide 3">
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a passionate event planner with a keen eye for detail and a love for creating unforgettable experiences. With years of expertise in designing and coordinating events, I specialize in bringing visions to life and ensuring every moment is magical. From intimate gatherings to grand celebrations, I thrive on making dreams a reality for my clients.</p>
+            <p class="quote">"An event is not just a moment in time; it is a story, an experience, and a memory that lasts forever. My mission is to make every detail count and craft events that leave an indelible mark on hearts."</p>
+        </section>
+    
+        <section id="events">
+            <h2>Events</h2>
+            <p>Here are some events I have participated in or organized:</p>
+            <ul class="event-list">
+                <li><input type="checkbox" id="kids-birthday"><label for="kids-birthday"> Kids Birthday</label></li>
+                <li><input type="checkbox" id="wedding"><label for="wedding"> Wedding</label></li>
+                <li><input type="checkbox" id="debut"><label for="debut"> Debut</label></li>
+                <li><input type="checkbox" id="anniversary"><label for="anniversary"> Anniversary</label></li>
+                <li><input type="checkbox" id="proposal"><label for="proposal"> Proposal</label></li>
+                <li><input type="checkbox" id="bachelor-party"><label for="bachelor-party"> Bachelor/Bachelorette Party</label></li>
+            </ul>
+        </section>
+    
+        <section id="themes">
+            <ul class="event-list">
+                <li>
+                  <input type="checkbox" id="kids-birthday">
+                  <label for="kids-birthday">Kids Birthday</label>
+                  <div id="kids-birthday-options" class="theme-options">
+                    <ul>
+                      <li>Superheroes</li>
+                      <li>Fairy Tale</li>
+                      <li>Outer Space</li>
+                      <li>Jungle Safari</li>
+                      <li>Candy Land</li>
+                    </ul>
+                  </div>
+                </li>
+              
+                <li>
+                  <input type="checkbox" id="wedding">
+                  <label for="wedding">Wedding</label>
+                  <div id="wedding-options" class="theme-options">
+                    <ul>
+                      <li>Rustic Chic</li>
+                      <li>Beachfront Bliss</li>
+                      <li>Classic Elegance</li>
+                      <li>Boho Romance</li>
+                      <li>Winter Wonderland</li>
+                    </ul>
+                  </div>
+                </li>
+              
+                <li>
+                  <input type="checkbox" id="debut">
+                  <label for="debut">Debut</label>
+                  <div id="debut-options" class="theme-options">
+                    <ul>
+                      <li>Enchanted Garden</li>
+                      <li>Masquerade Ball</li>
+                      <li>Vintage Glam</li>
+                      <li>Starlit Night</li>
+                      <li>Pastel Dreams</li>
+                    </ul>
+                  </div>
+                </li>
+              
+                <li>
+                  <input type="checkbox" id="anniversary">
+                  <label for="anniversary">Anniversary</label>
+                  <div id="anniversary-options" class="theme-options">
+                    <ul>
+                      <li>Golden Jubilee</li>
+                      <li>Romantic Paris</li>
+                      <li>Timeless Love</li>
+                      <li>Starry Celebration</li>
+                      <li>Vineyard Retreat</li>
+                    </ul>
+                  </div>
+                </li>
+              
+                <li>
+                  <input type="checkbox" id="proposal">
+                  <label for="proposal">Proposal</label>
+                  <div id="proposal-options" class="theme-options">
+                    <ul>
+                      <li>Rooftop Romance</li>
+                      <li>Seaside Sunset</li>
+                      <li>Candlelit Dinner</li>
+                      <li>Park Picnic</li>
+                      <li>Hot Air Balloon</li>
+                    </ul>
+                  </div>
+                </li>
+              
+                <li>
+                  <input type="checkbox" id="bachelor-party">
+                  <label for="bachelor-party">Bachelor/Bachelorette Party</label>
+                  <div id="bachelor-party-options" class="theme-options">
+                    <ul>
+                      <li>Casino Night</li>
+                      <li>Tropical Luau</li>
+                      <li>Roaring 20s</li>
+                      <li>Western Saloon</li>
+                      <li>Superhero Squad</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+        </section>
+    
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to get in touch with me for any inquiries or collaborations.</p>
+            <form action="https://formsubmit.co/your-email@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    
+        <footer>
+            <p>&copy; 2025 EVENT SPECIALIST</p>
+        </footer>
+    
+        <script>
+            // Toggle mobile menu visibility
+            function toggleMenu() {
+                const navList = document.getElementById('nav-list');
+                navList.classList.toggle('active');
+            }
+
+            const eventCheckboxes = document.querySelectorAll('.event-list input[type="checkbox"]');
+
+eventCheckboxes.forEach(checkbox => {
+  checkbox.addEventListener('change', () => {
+    const optionsDiv = document.getElementById(`${checkbox.id}-options`);
+    optionsDiv.style.display = checkbox.checked ? 'block' : 'none';
+  });
+});
+</script>
+    
+    </body>
+    </html>
